@@ -11,7 +11,7 @@ public class Cheers {
             char letter = name.charAt(i);
 
             String prefix = "AEFHIJLMNORSX".indexOf(letter) != -1 ? "an" : "a ";
-            System.out.println("Give me " + prefix + " " + letter + "!");
+            System.out.println("Give me " + prefix + " " + letter + ": " + letter + "!");
         }
 
         System.out.println("What does that spell?");
